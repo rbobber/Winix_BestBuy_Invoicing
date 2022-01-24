@@ -5,8 +5,8 @@ import csv
 driver = webdriver.Chrome()
 driver.get("https://apps.commercehub.com/account/login?service=https://dsm.commercehub.com/dsm/shiro-cas")
 
-driver.find_element_by_xpath('//input[@class="sign-in-input"]').send_keys("Winix")
-driver.find_element_by_xpath('//input[@type="password"]').send_keys("Winix220!!!!!!")
+driver.find_element_by_xpath('//input[@class="sign-in-input"]').send_keys("######")
+driver.find_element_by_xpath('//input[@type="password"]').send_keys("###########")
 driver.find_element_by_xpath('//input[@class="sign-in-button"]').click()
 time.sleep(1)
 driver.find_element_by_xpath("//a[contains(@href, '=bestbuy')]").click()
