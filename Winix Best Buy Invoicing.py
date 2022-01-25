@@ -89,4 +89,5 @@ for qty_box in qty_boxes:
 index = 1
 
 time.sleep(60)
+
 driver.close()
